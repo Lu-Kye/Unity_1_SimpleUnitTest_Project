@@ -1,0 +1,59 @@
+[
+    // View
+    { "key": "shift+ctrl+t", "command": "workbench.action.terminal.toggleTerminal" },
+    { "key": "ctrl+shift+h", "command": "workbench.action.togglePanel" },
+
+    // Editor
+    { "key": "shift+ctrl+1", "command": "workbench.action.focusFirstEditorGroup" },
+    { "key": "shift+ctrl+2", "command": "workbench.action.focusSecondEditorGroup" },
+    { "key": "shift+ctrl+3", "command": "workbench.action.focusThirdEditorGroup" },
+
+    { "key": "ctrl+k", "command": "workbench.action.nextEditor" },
+    { "key": "ctrl+j", "command": "workbench.action.previousEditor" },
+    { "key": "ctrl+f", "command": "actions.find" },
+    { "key": "ctrl+shift+f", "command": "workbench.action.findInFiles" },
+    { "key": "ctrl+shift+w", "command": "workbench.action.closeActiveEditor" },
+
+    { "key": "ctrl+1", "command": "workbench.action.openEditorAtIndex1" },
+    { "key": "ctrl+2", "command": "workbench.action.openEditorAtIndex2" },
+    { "key": "ctrl+3", "command": "workbench.action.openEditorAtIndex3" },
+    { "key": "ctrl+4", "command": "workbench.action.openEditorAtIndex4" },
+    { "key": "ctrl+5", "command": "workbench.action.openEditorAtIndex5" },
+    { "key": "ctrl+6", "command": "workbench.action.openEditorAtIndex6" },
+    { "key": "ctrl+7", "command": "workbench.action.openEditorAtIndex7" },
+    { "key": "ctrl+8", "command": "workbench.action.openEditorAtIndex8" },
+    { "key": "ctrl+9", "command": "workbench.action.openEditorAtIndex9" },
+
+    { "key": "ctrl+[", "command": "workbench.action.navigateBack" },
+    { "key": "ctrl+]", "command": "workbench.action.navigateForward" },
+
+    // Code 
+    { "key": "shift+ctrl+o", "command": "workbench.action.showAllSymbols" },
+    { "key": "ctrl+o", "command": "workbench.action.gotoSymbol" },
+
+    { "key": "shift+ctrl+p", "command": "workbench.action.showCommands" },
+    { 
+        "key": "ctrl+enter", 
+        "command": "renameFile", 
+        "when": "explorerViewletVisible && filesExplorerFocus" 
+    },
+    {
+        "key": "shift+ctrl+h",
+        "command": "workbench.action.maximizeEditor"
+    },
+    {
+        "key": "enter",
+        "command": "-renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {
+        "key": "enter",
+        "command": "list.select",
+        "when": "listFocus"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-list.select",
+        "when": "listFocus"
+    }
+]
